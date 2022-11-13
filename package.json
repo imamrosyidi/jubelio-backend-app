@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "lab -v test/app.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/code": "^9.0.1",
+    "@hapi/hapi": "^20.2.2",
+    "joi": "^17.7.0",
+    "pg-promise": "^10.12.1"
+  },
+  "devDependencies": {
+    "@hapi/lab": "^25.0.1",
+    "nodemon": "^2.0.20"
+  }
+}
